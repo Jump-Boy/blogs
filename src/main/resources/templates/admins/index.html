@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head th:replace="~{fragments/header :: header}">
+</head>
+<body>
+	<!-- Page Content -->
+	<div class="container blog-content-container">
+
+		<div class="row">
+
+			<!-- 左侧栏目(菜单信息展示) -->
+			<div class="col-md-4 col-xl-3">
+
+				<!-- 分类 -->
+				<div class="card ">
+					<h5 class="card-header"><i class="fa fa-bars" aria-hidden="true"></i> 菜单</h5>
+					<!--管理页面左侧的菜单分类展示，接收后台list<Menu>，Menu.name为类目名称，Menu.url为类目地址。
+					javascript:void(0)避免点击按钮，刷新页面，只完成调用js而已，js中去将类目返回的内容填充至页面右侧（rightContainer）-->
+					<ul class="list-group blog-menu"  th:each="menu : ${model.list}">
+						<a href="javascript:void(0)" class="list-group-item "  th:title="${menu.name}" th:text="${menu.name}"
+						   data-th-attr="url=${menu.url}">
+							用户管理
+						</a>
+				</div>
+
+			</div>
+
+
+			<!-- 右侧栏目(菜单某类目按钮结果信息展示区域) -->
+
+			<div class="col-md-8 col-xl-9">
+				<div class="card" id="rightContainer">
+				</div>
+			</div>
+		</div>
+		<!-- /.row -->
+
+	</div>
+	<!-- /.container -->
+
+	<div th:replace="~{fragments/footer :: footer}">...</div>
+
+	<!-- JavaScript -->
+	<script src="../../js/admins/main.js" th:src="@{/js/admins/main.js}"></script>
+
+</body>
+</html>
