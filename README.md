@@ -47,14 +47,23 @@ Security-thymeleaf，在页面编码上我们也可以进行一些侵入式的AP
 7、博客编辑集成了markdown的插件来完成博客内容的编写。
 
 ## 项目展示
+后台管理<br/>
 ![后台管理](https://github.com/Jump-Boy/blogs/blob/master/illustration/后台管理.png) <br/>
+新增用户<br/>
 ![新增用户](https://github.com/Jump-Boy/blogs/blob/master/illustration/新增用户.png) <br/>
+首页<br/>
 ![首页](https://github.com/Jump-Boy/blogs/blob/master/illustration/首页.png) <br/>
+个人主页<br/>
 ![个人主页](https://github.com/Jump-Boy/blogs/blob/master/illustration/个人主页.png) <br/>
+博客点赞评论<br/>
 ![博客点赞评论](https://github.com/Jump-Boy/blogs/blob/master/illustration/博客点赞评论.png) <br/>
+博客编辑<br/>
 ![博客编辑](https://github.com/Jump-Boy/blogs/blob/master/illustration/博客编辑.png) <br/>
+个人设置<br/>
 ![个人设置](https://github.com/Jump-Boy/blogs/blob/master/illustration/个人设置.png) <br/>
+博客详情<br/>
 ![博客详情](https://github.com/Jump-Boy/blogs/blob/master/illustration/博客详情.png) <br/>
+注册失败<br/>
 ![注册失败](https://github.com/Jump-Boy/blogs/blob/master/illustration/注册失败.png) <br/>
 
 ## 项目详述
