@@ -21,7 +21,8 @@
 
 * 项目部署<br/>
 可以clone项目后，直接IDE中运行，或者Gradle中依赖了SpringBoot插件，直接bootRun即可。还可以运行打包后生成的jar包，因为SpringBoot
-内置了容器。当然，也可以打成war包，部署到外置容器中去，如Tomcat。
+内置了容器。当然，也可以打成war包，部署到外置容器中去，如Tomcat。<br/>
+[点击这里查看详细项目部署步骤](https://blog.csdn.net/H_233/article/details/88636739)
 
 **项目设计以及实现上的几个点** ：<br/>
 1、项目使用了Thymeleaf模板引擎，来做前端页面的渲染，替代以往的JSP，同时SpringBoot也对Thymeleaf有很好的集成。页面部分还使用
@@ -78,17 +79,17 @@ Security-thymeleaf，在页面编码上我们也可以进行一些侵入式的AP
 |:---|:---|
 |JDK|1.8|
 |Gradle|3.5|
-|Spring Boot|1.5.2. RELEASE|
-|Thymeleaf|3.0.3. RELEASE|
+|Spring Boot|1.5.2.RELEASE|
+|Thymeleaf|3.0.3.RELEASE|
 |Thymeleaf Layout Dialec|2.2.0|
 |MySQL Community Server|5.7.17|
 |MySQL Workbench|6.3.9|
-|Spring Data JPA|1.11.1. RELEASE|
+|Spring Data JPA|1.11.1.RELEASE|
 |Hibernate|5.2.8. Final|
 |MySQL Connector|J6.0.5|
 |H2 Database|1.4.193|
 |Elasticsearch|2.4.4|
-|Spring Data Elasticsearch|2.1.3. RELEASE|
+|Spring Data Elasticsearch|2.1.3.RELEASE|
 |JNA|4.3.0|
 |Tether1.4.0|http://tether.io/|
 |Bootstrapv4.0.0-alpha.6|https://v4-alpha.getbootstrap.com/|
@@ -98,12 +99,14 @@ Security-thymeleaf，在页面编码上我们也可以进行一些侵入式的AP
 |Thinker-md|http://git.oschina.net/benhail/thinker-md|
 |jquEryTagsInput1.3.6|http://xoxco.com/projects/code/tagsinput/|
 |BootstrapChosen1.0.3|https://github.com/haubek/bootstrap4c-chosen|
-|toast2.1.1|http:/www.toastrjs.com/|
-|Spring Security|4.2.2. RELEASE|
-|Thymeleaf Spring Security|3.0. 2. RELEASE|
+|toast2.1.1|http://www.toastrjs.com/|
+|Spring Security|4.2.2.RELEASE|
+|Thymeleaf Spring Security|3.0.2.RELEASE|
 |Apache Commons Lang|3.5|
 |Markdown parser for the JVM|0.16|
 |Mongo DB|3.4.4|
 |Embedded MongoDB|2.0.0|
 
+* 其他参考
+[博客系统项目之实现逻辑与参考文档](https://blog.csdn.net/H_233/article/details/88638584)
 
